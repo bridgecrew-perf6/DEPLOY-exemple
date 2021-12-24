@@ -11,6 +11,6 @@ const publicDirectory =path.join(_dirname,'../public')
 app.use(express.static(publicDirectory))
 const port =10020
 
-app.listen(port ,()=>{
-    console.log(`Server is up on port${port}`)
+app.listen(10020 ,()=>{
+    console.log(`Server is up on port 10020`)
 })
